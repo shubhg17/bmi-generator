@@ -6,18 +6,26 @@
   </head>
   <body>
     <h1>BMI Generator</h1>
-
+    <!--Wrap inputs inside a form -->
+    <form>
     <div class="heightval">
       <p>Height in CM:</p>
-      <input class="bar" type="text">
+    <!--Add id="height" so JS can access it -->
+      <input class="bar" type="text" id="height">
     </div>
 
     <div class="weightval">
      <p>Weight in KG:</p>
-     <input class="bar" type="text">
+     <!--Add id="weight" so JS can access it-->
+     <input class="bar" type="text" id="weight">
     </div>
 
-    <button>Calculate</button>
+    <!--Button inside form will trigger submit -->
+    <button type="submit">Calculate</button>
+    </form>
+
+    <!--Added a div with id="result" to display BMI -->
+    <div id="result"></div>
 
     <div class="bmiguide">
       <h2>BMI Weight Guide</h2>
