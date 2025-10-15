@@ -44,7 +44,7 @@ cd bmi-generator
 - Click Calculate BMI to view the result
 
 ---
-📌 Notes
+## 📌 Notes
 
 🧠 A beginner-friendly project to understand JavaScript event handling and form validation.
 
@@ -57,7 +57,7 @@ cd bmi-generator
 - Health tips based on BMI range
 
 ---
-👨‍💻 Author
+## 👨‍💻 Author
 
 Made by Shubham Ghai
 
