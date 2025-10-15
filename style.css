@@ -2,3 +2,35 @@ body {
   text-align:center;
   background-color:rgb(190, 187, 187);
 }
+
+.heightval {
+   display:flex;
+   margin-left:5px;
+   margin-bottom:8px;
+}
+
+.weightval {
+   display:flex;
+   margin-left:5px;
+}
+
+.bar {
+   width:200px;
+}
+
+.bmiguide {
+   text-align:center;
+}
+
+button {
+    margin-top:10px;
+    font-size: 20px;
+    padding-top:10px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:10px;
+    border-style:solid;
+    border-radius:8px;
+    border-width:1px;
+    margin-bottom:40px;
+}
